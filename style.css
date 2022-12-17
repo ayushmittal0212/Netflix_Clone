@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    height: 100vh;
+    width: 110vw;
+    display: grid;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url("./images/netbg.jpg");
+    
+    
+
+}
+
+nav{
+    /* border: 2px solid white; */
+    height: 65px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr;
+    /* box-sizing: border-box; */
+}
+#logo{
+    height: 48px;
+    margin-left: 50px;
+}
+#opt{
+    appearance: none;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.727);
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    border-radius: 7px;
+    border: white .5px groove;
+    justify-self: flex-end;
+    font-size: 15px;
+}
+#opt:hover{
+    background-color: gray;
+    border: none;
+}
+#SI{
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgba(221, 50, 50, 0.649);
+    justify-self: center;
+    color: rgba(255, 255, 255, 0.727);
+}
+#SI:hover{
+    filter: brightness(80%);
+}
+#mt{
+    /* margin: center auto; */
+    justify-self: center;
+    align-self: flex-start;
+    color: white;
+    /* border: 2px solid white; */
+    height: fit-content;
+    width: 740px;
+}
+#mt>h1{
+    font-size: 4em;
+    text-align: center;
+    /* margin: 10px; */
+}
+#mt>h3{
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+#mt>p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.inp{
+    /* border: 2px solid white; */
+    display: flex;
+    margin: 10px;
+    align-items: stretch;
+    height: 70px;
+}
+.inp>input{
+    width: 485px;
+    margin: 0;
+    font-size: 2em;
+}
+.inp>button{
+    width: 235px;
+    background-color: red;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 700;
+    border: none;
+}
+.mid{
+    height: 460px;
+    width: 110vw;
+    background-color: black;
+    border:rgba(128, 128, 128, 0.442) solid;
+    border-width: 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+    box-sizing: border-box;
+}
+.mdt{
+    color: white;
+    /* border: 2px solid white; */
+    padding: 10px;
+    /* margin: 5px; */
+    height: 285px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.mdt>h2{
+    font-size: 3.2em;
+    font-weight: 500;
+    margin: 10px;
+}
+.mdt>h5{
+    margin: 10px;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.mi{
+    /* border: 2px solid white; */
+    margin: 90px;
+    
+}
+.mi>img{
+    height: 320px;
+}
+.mid:nth-of-type(2n+1){
+    flex-direction: row-reverse;
+}
+#f{
+    border-top: 8px rgba(128, 128, 128, 0.442) solid;
+}
+#faq{
+    border:rgba(128, 128, 128, 0.442) solid;
+    border-width: 4px 0;
+    height: 850px;
+    width: 110vw;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#faq>h1{
+    font-size: 3.2em;
+    text-align: center;
+    margin: 50px;
+}
+#faq>a{
+    text-decoration: none;
+    background-color: rgba(48,48,48);
+    padding: 15px;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    width: 810px;
+    height: 75  px;
+    /* border: 2px solid white; */
+    box-sizing: border-box;
+    font-size: 1.75em;
+    border-radius: 5px;
+}
+#faq>p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+    margin-top: 50px;
+}
+#faq>.inp{
+    width: 720px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+footer{
+    background-color: black;
+    color: rgb(115,115,115);
+    height: 410px;
+    width: 110vw;
+    /* border-width: 4px 0px;
+    border:rgba(128, 128, 128, 0.442) solid */
+    border-top: rgba(128, 128, 128, 0.442) solid 4px;
+}
+footer>p{
+    margin: 60px auto 15px;
+    width: 885px;
+    font-size: 1.1em;
+    /* border: 2px solid white; */
+}
+#ft{
+    /* border: 2px solid white; */
+    margin: 10px auto;
+}
+td{
+    padding: 7px 110px 7px 0;
+}
+footer>#opt{
+    /* border: 2px solid white; */
+    margin-left: 400px;
+    margin-top: 5px;
+}
+footer>p:nth-last-of-type(1){
+    font-size: .9em;
+}
